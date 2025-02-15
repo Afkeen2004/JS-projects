@@ -49,6 +49,7 @@ whack-a-mole/
 │── script.js      # Game logic
 │── mole.png       # Mole image
 │── plant.png      # Piranha plant image
+│── pipe.png       # pipe image
 │── soil.png       # Background texture
 │── mario-bg.jpg   # Game background
 ```
