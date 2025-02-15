@@ -1,0 +1,66 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background: url(./mario-bg.jpg);
+    background-size: cover;
+}
+
+#board{
+    width: 540px;
+    height: 540px;
+    /*background-color: green;*/
+
+    /*to make sure when we add tiles it is l to r and top to bottom*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    background: url(./soil.png);
+    background-size: cover;
+    border: 3px solid rgb(73, 39, 1);
+    border-radius: 25px;
+}
+
+#board div{
+    width: 180px;
+    height: 180px;
+    background-image: url(./pipe.png);
+    background-size: cover;
+}
+
+#board div img{
+    width: 100px;
+    height: 100px;
+    
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.restart-btn {
+    display: block;
+    margin: 20px auto; /* Centers the button */
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(73, 39, 1);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.restart-btn:hover {
+    background-color: brown;
+}
+
