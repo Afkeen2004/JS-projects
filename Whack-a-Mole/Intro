@@ -44,14 +44,13 @@ Simply open `index.html` in your preferred web browser.
 ## File Structure
 ```sh
 whack-a-mole/
-│── index.html         # Main HTML file
-│── styles.css         # Game styling
-│── script.js          # Game logic
-│── assets/
-│   ├── mole.png       # Mole image
-│   ├── plant.png      # Piranha plant image
-│   ├── soil.png       # Background texture
-│   ├── mario-bg.jpg   # Game background
+│── index.html     # Main HTML file
+│── styles.css     # Game styling
+│── script.js      # Game logic
+│── mole.png       # Mole image
+│── plant.png      # Piranha plant image
+│── soil.png       # Background texture
+│── mario-bg.jpg   # Game background
 ```
 
 ## Acknowledgments
